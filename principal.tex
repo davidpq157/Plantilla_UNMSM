@@ -1,0 +1,126 @@
+%==================================================
+% Plantilla elaborado por Dr. David Pareja Quispe
+% e-mail: dparejaq@unmsm.edu.pe
+% No eliminar los créditos del Autor
+%================================================
+\documentclass[twoside,onehalfspace]{unmsmtesis}
+%%   oneside          - hojas impresas por un solo lado
+%%   twoside (*)      - hojas impresas por ambos lados
+
+%=================================================
+% ADICIONAR OTROS PAQUETES SI ES NECESARIO
+%====================================================
+\graphicspath{{Figuras/}}%Ruta de las figuras
+\usepackage{blindtext}
+
+
+
+
+%==========================================
+%    Fuente
+%==========================================
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{#1}\smallskip\par
+  \textbf{Fuente:} #2\par}
+  
+%====================================================================
+% Otra forma de colocar la fuente a las figuras de otros autores.
+%====================================================================
+\usepackage{copyrightbox} % Está dedicado a las notas de las imágenes situadas debajo, izquierda o a la derecha de las imágenes
+\makeatletter
+\renewcommand{\CRB@setcopyrightfont}{%
+\footnotesize %Cambiar el tamanho de fuente 
+\color{black} %Comentar si desea en el color por defecto
+%\sc
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% AQUÍ INICIA EL DOCUMENTO %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setlength {\marginparwidth}{2cm} 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CARGANDO LA PORTADA DEL DOCUMENTO
+\input{Portada/portada.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}\null\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REIMPRESIÓN DE LA PORTADA NUEVAMENTE
+%\input{Portada/portada.tex}
+
+%================================================
+%ESPACIAMIENTO ENTRE LINEAS EN TODO EL DOCUMENTO
+%================================================
+\onehalfspacing 
+\pagenumbering{roman}
+
+%===========================================================================================
+%  COMENTE LAS LINEAS (PARTES DEL DOCUMENTO) QUE NO DESEA QUE APAREZCA EN EL ÍNDICE GENERAL
+%===========================================================================================
+\include{./Docs/epigrafe} %% OPCIONAL
+\include{./Docs/dedicatoria} %% OPCIONAL
+\include{./Docs/agradecimientos} %% OPCIONAL
+\include{./Docs/siglas} %% OPCIONAL
+\include{./Docs/simbolos.tex} %% OPCIONAL
+\include{./Docs/resumen} %% OBLIGATORIO 
+\include{./Docs/abstract} %% OBLIGATORIO
+
+%=================================================
+%%%%%%%%%%%%%%%%%%% LISTA DE FIGURAS  %%%%%%%%%%%%
+%=================================================
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename} %COMENTAR SI NO DESEA QUE APAREZCA EN EL INDICE GENERAL
+\newpage
+%=========================================
+%%%%%%%%%%%%%%%%LISTA DE TABLAS%%%%%%%%%%%
+%=========================================
+\listoftables
+\addcontentsline{toc}{chapter}{\listtablename} %COMENTAR SI NO DESEA QUE APAREZCA EN EL INDICE GENERAL
+%\newpage
+\thispagestyle{empty}\null\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             ÍNDICE GENERAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+%\pagebreak
+\newpage
+
+\pagenumbering{arabic}
+\justifying
+
+%================================================
+% AQUÍ INICIA LOS CAPÍTULOS DE LA TESIS
+% Adicione los capítulos que crea conveniente 
+%================================================
+
+\include{./Docs/cap1} %% 1o capítulo
+\include{./Docs/cap2} %% 2o capítulo
+\include{./Docs/cap3} %% 3o capítulo
+%\include{./Docs/cap4} %% 4o capítulo
+%\include{./Docs/cap5} %% 5o capítulo
+%\include{./Docs/cap6} %% 6o capítulo
+%\include{./Docs/cap7} %% 7o capítulo
+
+\newpage
+%===========================
+%  REFERENCIA  BIBLIOGRAFÍA
+%===========================
+\bibliographystyle{./Bib/apalike-es}
+\bibliography{./Bib/referencias}
+
+%======================================
+%COMENTAR SI NO DESEA QUE APAREZCA EN EL INDICE GENERAL
+%========================================================
+\addcontentsline{toc}{chapter}{Referencias Bibliográficas}
+
+%==============================================================
+%  SE ADICIONA LAS SECCIONES: ANEXO Y APÉNDICE 
+%
+%  COMENTAR SI NO DESEA QUE APAREZCA ESTA PARTE DEL DOCUMENTO
+%==============================================================
+\include{./Docs/anexo} %% Opcional
+\include{./Docs/apendice} %% Opcional
+
+\end{document}
