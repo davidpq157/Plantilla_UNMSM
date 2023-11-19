@@ -4,8 +4,13 @@ PLANTILLA DE TESIS UNMSM
 
 ## Información
 
-## clonar repositorio
+Este repositorio proporciona un template en formato latex para ...
 
+## Como clonar
+
+```console
+foo@bar:~$ git clone git@github.com:davidpq157/Plantilla_UNMSM.git
+```
 
 Errores comunes en monografías
 ==================================
