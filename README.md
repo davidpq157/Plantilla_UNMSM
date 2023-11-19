@@ -21,7 +21,7 @@ Siempre colocar la leyenda a las figuras y tablas, además, no olvidar colocar l
 <img src="https://raw.githubusercontent.com/davidpq157/Plantilla_UNMSM/main/cover/Figure3.png" alt="Figure3" />
 </div>
 
-## Otros errores comunes en las monografias
+## Errores comunes en las monografias
 
 - No colocan el resumen y el abstract.
 - No colocan la numeración, leyenda y fuente de las figuras.
@@ -36,6 +36,12 @@ Siempre colocar la leyenda a las figuras y tablas, además, no olvidar colocar l
 - Muchas referencias no aparecen en el capítulo de referencias. 
 - Confunden los tiempos verbales. Tener presente en que estado se encuentra el trabajo que están realizando.
 - El índice general debe contener los capítulos, secciones y subsecciones de forma clara.
+
+## Otras recomendaciones
+
+- En trabajos monográficos los títulos tienen que ser modificados, esto para no cometer plagio. Sin embargo, el título puede ser similar al articulo base.
+- En tesis los títulos tienen que ser originales y tiene que estar relacionado con la investigación que irán a desarrollar. 
+- Finalmente, el título de la tesis tiene que tener relación con el objetivo del trabajo de investigación. Por otro lado, los objetivos específicos permitirán alcanzar el objetivo principal del proyecto. 
 
 ## Estructura recomendada para elaboración de monografías y tesis
 
