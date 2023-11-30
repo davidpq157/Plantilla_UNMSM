@@ -4,13 +4,22 @@ PLANTILLA DE TESIS UNMSM
 
 ## Información
 
-Este repositorio proporciona un template en formato latex para ...
+Este repositorio proporciona una plantilla en LaTeX diseñada específicamente para el formato de tesis de licenciatura en la Facultad de Física de la Universidad Nacional Mayor de San Marcos (UNMSM). La plantilla ha sido creada siguiendo las pautas y requisitos establecidos por la institución, facilitando a los estudiantes de física la creación de sus documentos de tesis de manera estructurada y conforme a las normativas académicas.
+
+## Objetivo
+Este recurso tiene como objetivo simplificar el proceso de creación y presentación de tesis de licenciatura en física, permitiendo a los estudiantes centrarse en el contenido de sus investigaciones. Se alienta a la comunidad a contribuir y mejorar continuamente esta plantilla para que siga siendo una herramienta valiosa para los estudiantes de la Facultad de Física en la UNMSM.
 
 ## Como clonar
 
 ```console
 foo@bar:~$ git clone git@github.com:davidpq157/Plantilla_UNMSM.git
 ```
+
+Características Principales
+==================================
+- Estructura predefinida: La plantilla incluye una estructura predeterminada que abarca elementos como portada, índice, introducción, metodología, resultados, conclusiones, entre otros, siguiendo los estándares requeridos.
+- Formato LaTeX: Diseñada en LaTeX, la plantilla ofrece la ventaja de producir documentos de alta calidad tipográfica y facilita la gestión de referencias bibliográficas y la creación de ecuaciones matemáticas.
+- Adaptabilidad: Los usuarios pueden personalizar fácilmente la plantilla según sus necesidades específicas y requisitos de presentación.
 
 Errores comunes en monografías
 ==================================
