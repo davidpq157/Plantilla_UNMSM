@@ -44,7 +44,7 @@ Siempre colocar la leyenda a las figuras y tablas, además, no olvidar colocar l
 <img src="https://raw.githubusercontent.com/davidpq157/Plantilla_UNMSM/main/cover/Figure3.png" alt="Figure3" />
 </div>
 
-## Errores comunes en las monografias
+## Errores comunes
 
 - No colocan el resumen y el abstract.
 - No colocan la numeración, leyenda y fuente de las figuras.
