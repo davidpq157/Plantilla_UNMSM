@@ -1,5 +1,5 @@
 
-PLANTILLA LATEX DE TESIS UNMSM
+PLANTILLA LATEX PARA TESIS - UNMSM
 ==================================
 
 ## Información
